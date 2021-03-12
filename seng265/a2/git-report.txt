@@ -1,0 +1,72 @@
+Report based on 'git clone' for state of repos on 2021-02-21 12:05 am
+
+Each line below uses the format of:
+* netlink ID (first and last characters)
+* student number (last three digits)
+* location in student's repo in which needed file was found
+
+a***7 592 a1/icsout.c
+a***a 033 a1/icsout.c
+a***a 119 a1/icsout.c
+a***a 735 a1/icsout.c
+a***e 344 a1/icsout.c
+a***s 412 a1/icsout.c
+a***s 732 a1/icsout.c
+b***j 120 a1/icsout.c
+b***l 703 a1/icsout.c
+b***o 269 a1/icsout.c
+b***s 979 a1/icsout.c
+b***z 852 a1/icsout.c
+b***z 881 a1/icsout.c
+c***a 388 a1/icsout.c
+c***a 477 a1/icsout.c
+c***k 651 a1/icsout.c
+d***n 893 a1/icsout.c
+e***m 209 a1/icsout.c
+e***t 515 a1/icsout.c
+e***z 292 a1/icsout.c
+h***n 004 a1/icsout.c
+i***7 759 a1/icsout.c
+j***0 743 a1/icsout.c
+j***a 472 a1/icsout.c
+j***h 546 a1/icsout.c
+j***n 917 a1/icsout.c
+j***s 392 a1/icsout.c
+k***g 648 a1/icsout.c
+k***l 468 a1/assign1/icsout.c << wrong directory
+k***n 343 a1/icsout.c
+k***n 974 assign1/icsout.c    << wrong directory
+k***y 171 a1/icsout.c
+l***3 098 a1/icsout.c
+l***i 807 a1/icsout.c
+l***l 864 a1/icsout.c
+l***m 411 a1/icsout.c
+l***n 894 a1/icsout.c
+m***d 244 a1/icsout.c
+m***e 666 a1/icsout.c
+m***n 481 a1/icsout.c
+m***o 094 a1/icsout.c
+m***r 550 a1/icsout.c
+m***t 411 a1/icsout.c
+m***y 386 a1/icsout.c
+n***9 580 a1/icsout.c
+n***g 797 a1/icsout.c
+n***n 107 a1/icsout.c
+n***n 569 a1/icsout.c
+p***y 869 a1/icsout.c
+r***6 824 a1/icsout.c
+r***a 704 a1/icsout.c
+r***e 561 a1/icsout.c
+r***h 742 a1/icsout.c
+s***9 959 a1/icsout.c
+t***g 564 a1/icsout.c
+t***l 586 a1/icsout.c
+t***r 257 a1/icsout.c
+v***d 255 a1/icsout.c
+v***v 643 a1/icsout.c
+w***m 098 a1/icsout.c
+y***1 230 a1/icsout.c
+y***n 300 a1/icsout.c
+y***u 764 a1/icsout.c
+z***n 746 a1/icsout.c
+z***s 516 a1/icsout.c
