@@ -3,7 +3,7 @@ on a simple file system (SFS), FAT12, used by MS-DOS.
 
 ======================================================================
 
-*How to use this SFS:*
+How to use this SFS:
 Step 1: execute "make" in terminal to compile all
 Step 2: to run diskinfo, execute "./diskinfo <some_disk_image.ima>"
 	to run disklist, execute "./disklist <some_disk_image.ima>"
