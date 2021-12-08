@@ -1,4 +1,3 @@
-
 For this assignment, I have implemented utilities to perform operations
 on a simple file system (SFS), FAT12, used by MS-DOS.
 
@@ -21,4 +20,3 @@ What do these functions do?
 - diskget: copies a file from root directory of the file system to the current directory in Linux
 - diskput: copies a file from the current Linux directory into a specified directory 
 		   (i.e. root directory or subdirectory) of the file system.
-
