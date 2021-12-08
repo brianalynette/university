@@ -19,4 +19,4 @@ What do these functions do?
 - disklist: get a list of the files/subdirectories with their date/time and file size
 - diskget: copies a file from root directory of the file system to the current directory in Linux
 - diskput: copies a file from the current Linux directory into a specified directory 
-		   (i.e. root directory or subdirectory) of the file system.
+	(i.e. root directory or subdirectory) of the file system.
