@@ -8,3 +8,4 @@ Clarification on code I wrote vs what was provided for me:
 - In seng265/a1/iscout.c I wrote all code except for lines 250-272.
 - In csc360/a1, I wrote PMan.c, all other code was provided for me.
 - In csc360/a2, I wrote ACS.c and the Makefile, all remaining files where provided by my professor.
+- In csc360/a3, I wrote all code except for the first 15 lines in each `main` function.
