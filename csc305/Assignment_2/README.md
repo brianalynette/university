@@ -3,7 +3,7 @@ Introduction to Raytracing and Shading
 
 Follow the instructions on the [general instructions page](../Rules.md) to set up what you need.
 
-### Implementation
+
 
 Ray Tracing a Parallelogram
 ---------------------------
