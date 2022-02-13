@@ -21,11 +21,7 @@ Ex.1: Basic Ray Tracing [16pt]
 
 In this exercise, you will modify the provided code to launch primary rays from the camera following a perspective projection model and implement the intersection with a parallelogram.
 
-### Tasks
-
-Each `TODO` in the provided code corresponds to a part that you need to fill to complete the assignment.
-
-#### Ray Tracing a Parallelogram [8pt]
+#### Ray Tracing a Parallelogram
 
 1. Set up the parameters of the parallelogram (position of the corner, plus one vector for each side of the parallelogram)
 2. Create a function to check if a ray intersects with an arbitrary parallelogram.
@@ -34,14 +30,14 @@ Each `TODO` in the provided code corresponds to a part that you need to fill to 
 
 
 
-#### Ray Tracing with Perspective Projection [8pt]
+#### Ray Tracing with Perspective Projection
 
 5. Modify the ray-sphere intersection to follow the generic case we saw in class.
 6. Modify the ray equation for perspective projection.
 7. Compare the difference in the result for a sphere for a parallelogram (you can also create a scene with multiple objects).
 
 
-Ex.2: Shading [10pt]
+Ex.2: Shading
 -------------
 
 ### Description
