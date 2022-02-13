@@ -3,34 +3,28 @@ Introduction to Raytracing and Shading
 
 Follow the instructions on the [general instructions page](../Rules.md) to set up what you need.
 
-Ex.1: Basic Ray Tracing
------------------------
+### Implementation
 
-#### Ray Tracing a Parallelogram
+Ray Tracing a Parallelogram
+---------------------------
+ - New parameters for the parallelogram. These include an origin point, a u vector and v vector.
+ - Calculated points u, v, t
+ - Checked u, v, t to see if ray intersected with the parallelogram
+ - Computed the intersection point and its normal
 
-1. Set up the parameters of the parallelogram (position of the corner, plus one vector for each side of the parallelogram)
-2. Create a function to check if a ray intersects with an arbitrary parallelogram.
-3. Calculate the intersection between the ray and the parallelogram using the function defined above.
-4. Compute the normal of that intersection point.
+Ray Tracing with Perspective Projection
+---------------------------------------
+ - Modified ray equation for perspective projection
+ - Prepared the ray and checked if it intersected with the parallelogram
+ - Computed the intersection point and its normal
+ - Difference in the result of a sphere vs parallelogram with respect to perspective:
+    - Sphere: no matter what perspective we set up (i.e. camera view point), the sphere will still appear the same.
+    - Parallelogram: it is a flat surface. Shifting the perspective will show us a completely different view of the object and thus the appearance.
 
-
-
-#### Ray Tracing with Perspective Projection
-
-5. Modify the ray-sphere intersection to follow the generic case we saw in class.
-6. Modify the ray equation for perspective projection.
-7. Compare the difference in the result for a sphere for a parallelogram (you can also create a scene with multiple objects).
-
-
-Ex.2: Shading
--------------
-
-### Description
-
-In this second exercise, you will implement the shading equations introduced in class.
-
-### Tasks
-
-1. Implement the basic shading components discussed in class: ambient, specular, and diffuse.
-2. Add RGB components instead of the current grey-scale one.
-3. Experiment with the different parameters and observe their effect on the ray-traced shapes.
+Shading
+-------
+ - Implemented ambient, specular, and diffuse shading
+ - Changed a single matrix (C) to three (R,G,B) to keep track of each colour value in RGB format instead of grey-scale
+ - Experimentation showed the following:
+    - Using a very large specular exponent (the Phong exponent) resulted in a very small shining spot and a completely black lower half. A small exponent, on the other hand, resulted in a larger white reflection and the opposite of the top colour to appear on the bottom. 
+    - Using large values in the RGB spaces for diffuse or specular shading resulted in a much harsher deliniation in colours for the sphere. This is likely due to the overlap of colours resulting in white with RGB.
