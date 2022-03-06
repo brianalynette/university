@@ -1,7 +1,7 @@
 Ex.0: Implement the intersection code
 -------------------------------------
 
-# Tasks
+### Tasks
 Fill the functions `ray_sphere_intersection` and `ray_parallelogram_intersection` with the correct intersection between the ray and the primitives.
 
 # Output with sphere intersection
