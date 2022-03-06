@@ -26,8 +26,11 @@ Returns whether the ray intersects the sphere
 Code copied from assignment 2 "raytrace_parallelogram" function.
 
 ### Images from this section
-* sphere_inter.png
-* sphere_plane_inter.png
+* Sphere intersection
+* Sphere-plane intersection
+
+![sphere_inter](https://user-images.githubusercontent.com/79673623/156946799-3eccb497-7d2d-45fb-816b-b600f0798dfc.png)
+![sphere_plane_inter](https://user-images.githubusercontent.com/79673623/156946805-b3123d37-802a-468a-8217-799ee06ad481.png)
 
 
 Ex.1: Field of View and Perspective Camera
@@ -42,9 +45,10 @@ The field of view of a perspective camera represents the angle formed between th
 3. Updated the values for if the camera has a perspective aspect as opposted to an orthographic one - specifically ray_origin and ray_direction.
 
 ### Images from this section
-* field_of_view.png
-* perspective.png
-
+* Field of view
+* Perspetive
+![field_of_view](https://user-images.githubusercontent.com/79673623/156946811-3402834b-b45f-43b9-85b6-23523a79ae50.png)
+![perspective](https://user-images.githubusercontent.com/79673623/156946818-750e5df8-8879-4451-a283-df15b25c6d8d.png)
 
 Ex.2: Shadow Rays
 -----------------
@@ -59,8 +63,11 @@ To determine if a point is in the shadow of another or not, you must cast a ray 
 4. Updated `shoot_ray` to account for if the light was not found to be visible
 
 ### Images from this section
-* shading.png
-* shadows.png
+* Shading
+* Shadows
+![shading](https://user-images.githubusercontent.com/79673623/156946822-8509d773-1463-4367-a244-c7e047ff57a2.png)
+
+![shadows](https://user-images.githubusercontent.com/79673623/156946825-173976d2-7f33-4002-9051-3faf9234c0a2.png)
 
 
 Ex.3: Reflection
@@ -78,8 +85,8 @@ To render mirrors, shading must also consider objects that could be reflected by
 6. Scale our reflection_color by the provided refl_color
 
 ### Images from this section
-* reflection.png
-
+* Reflection
+![reflection](https://user-images.githubusercontent.com/79673623/156946830-f827378e-bff1-4923-9cb5-b049a8c25282.png)
 
 Ex.4: Perlin Noise
 ------------------
@@ -93,5 +100,8 @@ Implement the Perlin noise as explained in class.
 3. Commented out linear interpolation, add provided cubic interpolation equation: with the sphere that has a texture applied, the linear interpolation is not quite as smoothly blended as the gradient interpolation.
 
 ### Images from this section
-* raytrace_linear.png
-* raytrace_gradient.png
+* Perlin noise (linear interpolation)
+* Perlin noise (cubic interpolation)
+![perlin_linear_interp](https://user-images.githubusercontent.com/79673623/156946840-042bb0e4-02d1-45ae-8359-3cb7266acc7f.png)
+
+![perlin_gradient_interp](https://user-images.githubusercontent.com/79673623/156946844-2cc815f8-e77c-4200-8f53-6921004f9ccb.png)
