@@ -1,18 +1,3 @@
-Name, V#, OS
-------------
-Briana Johnson
-V00929120
-macOS, 12.0.1 (Montery)
-
-Compiler
---------
-
-Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
-Apple clang version 12.0.0 (clang-1200.0.32.27)
-Target: x86_64-apple-darwin21.1.0
-Thread model: posix
-
-
 Ex.0: Implement the intersection code
 -------------------------------------
 
