@@ -20,7 +20,7 @@ Returns whether the ray intersects the sphere
 5. Solve p(t) = o + td (i.e. the parametric form)
 6. Solve for normal
 7. Return t
-*Studied: https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection
+* Studied: https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection
 
 ### Output with sphere and plane intersection
 Code copied from assignment 2 "raytrace_parallelogram" function.
