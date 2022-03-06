@@ -4,7 +4,7 @@ Ex.0: Implement the intersection code
 ### Tasks
 Fill the functions `ray_sphere_intersection` and `ray_parallelogram_intersection` with the correct intersection between the ray and the primitives.
 
-# Output with sphere intersection
+### Output with sphere intersection
 Returns whether the ray intersects the sphere
     sphere_center:  center center point of the sphere
     sphere_radius: radius radius of the sphere
@@ -12,7 +12,7 @@ Returns whether the ray intersects the sphere
     ray_direction: direction direction vector of the ray
     t: intersection closest intersection point of the ray with the sphere
 
-# Implementation
+### Implementation
 1. Set up temporary intersection points to test
 2. solve quadratic equation
 3. Check to see if the intersection point hit anything
@@ -49,16 +49,16 @@ perspective.png
 Ex.2: Shadow Rays
 -----------------
 
-# Description
+### Description
 To determine if a point is in the shadow of another or not, you must cast a ray from this point to the different light sources in the scene. If another object lies in between the point and the light source, then this light does not contribute to the point's color.
 
-# Implementation
+### Implementation
 1. Added implementation to specular vector
 2. Implemented `is_light_visible` function
 3. Added `calculate_distance` function
 4. Updated `shoot_ray` to account for if the light was not found to be visible
 
-# Images from this section
+### Images from this section
 shading.png
 shadows.png
 
@@ -66,10 +66,10 @@ shadows.png
 Ex.3: Reflection
 ----------------
 
-# Description
+### Description
 To render mirrors, shading must also consider objects that could be reflected by the camera (primary) rays. This can be achieved by shooting new rays from the hit position to the scene with a new direction.
 
-# Implementation
+### Implementation
 1. Add a black/empty space variable to check against the current `refl_color` variable
 2. Check if we have any remaining bounces to hit & decrease counter if we do
 3. Create new vector for the interception point and for the reflection direction
@@ -77,21 +77,21 @@ To render mirrors, shading must also consider objects that could be reflected by
 5. Recursively call `shoot_ray` to bounce the new reflected rays off of the objects in our scene until we reach 0 remaining bounces
 6. Scale our reflection_color by the provided refl_color
 
-# Images from this section
+#### Images from this section
 reflection.png
 
 
 Ex.4: Perlin Noise
 ------------------
 
-# Description
+### Description
 Implement the Perlin noise as explained in class.
 
-# Implementation
+### Implementation
 1. Implemented linear interpolation
 2. Implemented `dotGridGradient`
 3. Commented out linear interpolation, add provided cubic interpolation equation: no visible difference found, file size remained the same as well.
 
-# Images from this section
+### Images from this section
 raytrace_linear.png
 raytrace_gradient.png
