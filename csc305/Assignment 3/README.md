@@ -22,10 +22,10 @@ Returns whether the ray intersects the sphere
 7. Return t
 Studied: https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection
 
-## Output with sphere and plane intersection
+### Output with sphere and plane intersection
 Code copied from assignment 2 "raytrace_parallelogram" function.
 
-# Images from this section
+### Images from this section
 sphere_inter.png
 sphere_plane_inter.png
 
@@ -33,15 +33,15 @@ sphere_plane_inter.png
 Ex.1: Field of View and Perspective Camera
 ------------------------------------------
 
-# Description
+### Description
 The field of view of a perspective camera represents the angle formed between the camera's center and the sensor (aka the pixel grid through which rays are shot). The focal length is the distance between the camera center and the sensor and is called `f` in the figure above.
 
-# Implementation
+### Implementation
 1. Calculated image_y (using a diagram of what the focal view looks like)
 2. Calculated image_x (based on image_y and the provided aspect_ratio)
 3. Updated the values for if the camera has a perspective aspect as opposted to an orthographic one - specifically ray_origin and ray_direction.
 
-# Images from this section
+### Images from this section
 field_of_view.png
 perspective.png
 
