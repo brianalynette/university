@@ -17,3 +17,8 @@ For this assignment, I have implemented utilities to perform operations on a sim
 * `diskget`: copies a file from root directory of the file system to the current directory in Linux
 * `diskput`: copies a file from the current Linux directory into a specified directory 
 	(i.e. root directory or subdirectory) of the file system.
+
+## Note
+I wrote all code except for:
+* the first 15 lines in the `main` functions from `diskinfo.c` and `disklist.c`
+* the first 20 lines in the `main` funcitons in `diskget.c` and `diskput.c`
