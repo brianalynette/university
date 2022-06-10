@@ -10,7 +10,7 @@ Have a look at the [Getting Started](http://eigen.tuxfamily.org/dox/GettingStart
 
 ### Preparing the Environment
 
-Follow instructions the [general rules](../RULES.md) to setup what you need for the assignment.
+Follow instructions the [general rules](../../RULES.md) to setup what you need for the assignment.
 
 
 Ex.1: Triangle Mesh Ray Tracing
@@ -43,7 +43,7 @@ We need a criteria to split the set of input triangles S into two subsets S1 and
 Starting Code
 -------------
 
-After compiling the code following the process described in the [general instructions](../RULES.md), you can launch the program from command-line as follows:
+After compiling the code following the process described in the [general instructions](../../RULES.md), you can launch the program from command-line as follows:
 
 ```
 mkdir build; cd build; cmake ..; make
