@@ -55,3 +55,6 @@ Bonus 3
 -------
 * Added code to include reflections. 
 * Code taken from A3.
+
+## Final products
+[found here](/images)
