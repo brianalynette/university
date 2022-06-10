@@ -57,4 +57,4 @@ Bonus 3
 * Code taken from A3.
 
 ## Final products
-[found here](/images)
+[found here](/csc305/Assignment_4/images)
