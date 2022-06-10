@@ -4,10 +4,10 @@ For this assignment, I have implemented utilities to perform operations on a sim
 ## How to use this SFS:
 * Step 1: execute `make` in terminal to compile all
 * Step 2: 
-	* to run `diskinfo`, execute `./diskinfo <some_disk_image.ima>`
-	* to run `disklist`, execute `./disklist <some_disk_image.ima>`
-	* to run `diskget`, execute `./diskget <some_disk_image.ima> <some_file.ext>`
-	* to run `diskput`, execute `./diskput <some_disk_image.ima> <some_file_in_local_dir.ext>`
+	* to run `diskinfo`, execute `./diskinfo <some_disk_image>`
+	* to run `disklist`, execute `./disklist <some_disk_image>`
+	* to run `diskget`, execute `./diskget <some_disk_image> <some_file>`
+	* to run `diskput`, execute `./diskput <some_disk_image> <some_file_in_local_dir>`
 
 ## What do these functions do?
 * `diskinfo`: output disk information which includes the OS name, label of the disk,
