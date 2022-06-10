@@ -10,7 +10,7 @@ Have a look at the [Getting Started](http://eigen.tuxfamily.org/dox/GettingStart
 
 ### Preparing the Environment
 
-Follow instructions the [general rules](../../RULES.md) to setup what you need for the assignment.
+Follow instructions the [general rules](../Rules.md) to setup what you need for the assignment.
 
 
 Ex.1: Triangle Mesh Ray Tracing
