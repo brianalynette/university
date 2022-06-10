@@ -21,3 +21,6 @@ present a list of process, terminate/stop/start a process and show stat of a pro
 * If you want to run `inf.c` using `bg`, compile `inf.c` using `gcc inf.c -o inf` before you execute `./PMan`.
 * Compile and run PMan and input `bg ./inf a 1` where `a` and `1` are the parameters required by `inf.c`. 
 * Note that you should use `./inf` if `inf` is not in `PATH`.
+
+## Additional note
+I wrote `PMan.c`, all other code was provided for me.
