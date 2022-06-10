@@ -6,3 +6,6 @@ through the use of threads, mutexes and conditional variables.
 * Step 1: compile test files that you want to use
 * Step 2: execute `make` in terminal to compile ACS
 * Step 3: execute `./ACS some_input_file.txt` in terminal to run ACS
+
+## Note
+I wrote `ACS.c` and the `Makefile`, all remaining files where provided by my professor.
