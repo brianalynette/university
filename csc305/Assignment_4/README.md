@@ -1,24 +1,19 @@
-# Admin Info
-## Name, V#, OS
-Briana Johnson
-V00929120
-macOS, 12.0.1 (Montery)
-<br><br />
+# Ray Tracing: Triangle Meshes and AABB Trees
+The goal of this assignment is to implement ray tracing for a triangle mesh, and implement acceleration structures to make the computation faster.
 
-## Compiler
-Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
-Apple clang version 12.0.0 (clang-1200.0.32.27)
-Target: x86_64-apple-darwin21.1.0
-Thread model: posix
-  <br><br />
+## Using Eigen
+In all exercises you will need to do operations with vectors and matrices. To simplify the code, you will use Eigen. Have a look at the Getting Started page of Eigen as well as the Quick Reference page for a reference of the basic matrix operations supported.
 
-# Ex .1
+## Preparing the Environment
+Follow instructions the general rules to setup what you need for the assignment.
+
+## Ex .1
 * Implemented `find_nearest_object`, `ray_triangle_intersection`
 * Updated `raytrace_scene`
 <br><br />
 
 
-# Ex. 2
+## Ex. 2
 *Please note: I spent 2 days straight trying to get this code to work and spent hours looking at pseudocode and trying to debug my issues. The code was not working, so I had to comment out the section that calls these functions. Sorry for the inconvenience.*
 
 * Implemented `AABBTree`:
@@ -60,5 +55,3 @@ Bonus 3
 -------
 * Added code to include reflections. 
 * Code taken from A3.
-<br><br />
-## Thank you markers!
