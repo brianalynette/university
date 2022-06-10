@@ -7,7 +7,7 @@ For this assignment, I have implemented utilities to perform operations on a sim
 	* to run `diskinfo`, execute `./diskinfo <some_disk_image>`
 	* to run `disklist`, execute `./disklist <some_disk_image>`
 	* to run `diskget`, execute `./diskget <some_disk_image> <some_file>`
-	* to run `diskput`, execute `./diskput <some_disk_image> <some_file_in_local_dir>`
+	* to run `diskput`, execute `./diskput <some_disk_image> <some_local_file>`
 
 ## What do these functions do?
 * `diskinfo`: output disk information which includes the OS name, label of the disk,
