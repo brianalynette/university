@@ -1,6 +1,6 @@
 ## Overview
 
-Implement a rendering system for triangulated 3D models based on rasterization
+Implement a rendering system for triangulated 3D models based on rasterization.
 
 ### Preparing the Environment
 
