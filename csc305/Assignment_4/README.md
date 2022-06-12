@@ -2,7 +2,7 @@
 The goal of this assignment is to implement ray tracing for a triangle mesh, and implement acceleration structures to make the computation faster.
 
 ## Preparing the Environment
-Follow instructions the general rules to setup what you need for the assignment.
+Follow instructions the [general rules](../Rules.md) to setup what you need for the assignment.
 
 ## Ex .1
 * Implemented `find_nearest_object`, `ray_triangle_intersection`
