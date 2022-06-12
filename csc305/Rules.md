@@ -1,4 +1,4 @@
-General Rules
+General Instructions
 =============
 
 ### Preparing the Build Environment
