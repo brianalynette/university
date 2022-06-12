@@ -1,3 +1,5 @@
+# CSC360: Intro to Operating Systems
+
 ## Overview
 
 - Assignment 1: Program PMan (Process Manager) is able to create a process (and run it in background), 
