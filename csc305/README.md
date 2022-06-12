@@ -1,5 +1,5 @@
 # CSC 305: Intro to Computer Graphics
-*Note that Assignment 1 was a bonus assignment so it will not be included here. More details for each assignment are available in each folder as well as the rendered images.
+*Note: Assignment 1 was a bonus assignment and is not included here. More details for each assignment are available in each folder as well as the rendered images.*
 
 ## Assignment 2
 - Exercise 1: implement ray tracing a parallelogram
