@@ -1,4 +1,4 @@
-# CSC360: Intro to Operating Systems
+# CSC 360: Intro to Operating Systems
 
 ## Overview
 
