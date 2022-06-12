@@ -1,9 +1,6 @@
 # Ray Tracing: Triangle Meshes and AABB Trees
 The goal of this assignment is to implement ray tracing for a triangle mesh, and implement acceleration structures to make the computation faster.
 
-## Using Eigen
-In all exercises you will need to do operations with vectors and matrices. To simplify the code, you will use Eigen. Have a look at the Getting Started page of Eigen as well as the Quick Reference page for a reference of the basic matrix operations supported.
-
 ## Preparing the Environment
 Follow instructions the general rules to setup what you need for the assignment.
 
