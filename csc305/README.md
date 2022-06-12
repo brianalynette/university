@@ -1,4 +1,4 @@
-CSC 305 (Intro to Computer Graphics) at the University of Victoria, Spring 2022
+CSC 305 (Intro to Computer Graphics)
 -------------------------------------------------------------------------------
 
 - Assignment 2: implementing my first ray tracer and getting familiar with different shading. 
@@ -11,3 +11,11 @@ CSC 305 (Intro to Computer Graphics) at the University of Victoria, Spring 2022
     - Exercise 2: Shadow Rays
     - Exercise 3: Reflection
     - Exercise 4: Perlin Noise
+
+- Assignment 4: ray tracing with triangle meshes and AABB trees
+    - Exercise 1: implement nearest object code and ray intersection code
+    - Exercise 2: implement AABB tree code
+    - Bonus:
+        - Bonus 1: include spheres & parallelograms
+        - Bonus 2: include shadows
+        - Bonus 3: include reflections
