@@ -4,7 +4,7 @@ Implement a rendering system for triangulated 3D models based on rasterization.
 
 ### Preparing the Environment
 
-Follow the instructions on the [general instructions page](../RULES.md) to set up what you need for the assignment.
+Follow the instructions on the [general instructions page](../Rules.md) to set up what you need for the assignment.
 
 ## Ex.1: Load and Render a 3D model
 
